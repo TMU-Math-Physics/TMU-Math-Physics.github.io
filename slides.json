@@ -1,0 +1,46 @@
+
+[
+{
+“type”: “announcement”,
+“title”: “Welcome to the Hallway”,
+“body”: “This is a sample announcement. Edit slides.json to change content.”,
+“bg”: “#1a1a2e”,
+“accent”: “#e94560”
+},
+{
+“type”: “image”,
+“title”: “Our Team”,
+“caption”: “TBA.”,
+“image”: “images/slide2.jpg”,
+“bg”: “#0f3460”
+},
+{
+“type”: “announcement”,
+“title”: “🎉 Upcoming Event”,
+“body”: “just a test”,
+“bg”: “#16213e”,
+“accent”: “#f5a623”
+},
+{
+“type”: “weather”,
+“title”: “Today’s Weather”,
+“location”: “Crestview Hills, KY”,
+“lat”: 39.021,
+“lon”: -84.564,
+“bg”: “#0d1b2a”
+},
+{
+“type”: “clock”,
+“title”: “Current Time”,
+“timezone”: “America/New_York”,
+“bg”: “#1b1b2f”,
+“accent”: “#a78bfa”
+},
+{
+“type”: “announcement”,
+“title”: “📢 Reminder”,
+“body”: “pi does not equal three”,
+“bg”: “#1a1a2e”,
+“accent”: “#34d399”
+}
+]
