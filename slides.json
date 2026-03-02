@@ -1,7 +1,7 @@
 [
   {
     "type": "announcement",
-    "title": "Welcome to the Hallway",
+    "title": "Welcome to the Math and Physics Hallway!",
     "body": "This is a sample announcement. Edit slides.json to change content.",
     "bg": "#1a1a2e",
     "accent": "#e94560"
@@ -9,14 +9,14 @@
   {
     "type": "image",
     "title": "Our Team",
-    "caption": "Working together toward a common goal.",
+    "caption": "testing123.",
     "image": "images/slide2.jpg",
     "bg": "#0f3460"
   },
   {
     "type": "announcement",
     "title": "🎉 Upcoming Event",
-    "body": "All-hands meeting on Friday at 2:00 PM in the main conference room. Lunch will be provided!",
+    "body": "The Astronomy Public Lecture Series will return on March 28th at 7:30pm with a guest lecture from Dr. Wes Ryle!",
     "bg": "#16213e",
     "accent": "#f5a623"
   },
@@ -24,8 +24,8 @@
     "type": "weather",
     "title": "Today's Weather",
     "location": "New York",
-    "lat": 40.7128,
-    "lon": -74.0060,
+    "lat": 39.021,
+    "lon": -84.564,
     "bg": "#0d1b2a"
   },
   {
@@ -38,7 +38,14 @@
   {
     "type": "announcement",
     "title": "📢 Reminder",
-    "body": "Please keep common areas clean and tidy. Thank you for your cooperation!",
+    "body": "Theta is the polar angle, not azimuthal!!!",
+    "bg": "#1a1a2e",
+    "accent": "#34d399"
+  },
+  {
+    "type": "announcement",
+    "title": "📢 Math and Physics Trivia",
+    "body": "$\\pi^2$",
     "bg": "#1a1a2e",
     "accent": "#34d399"
   }
