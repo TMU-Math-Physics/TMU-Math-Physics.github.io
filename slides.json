@@ -1,8 +1,8 @@
 [
   {
     "type": "announcement",
-    "title": "Welcome to the Math and Physics Hallway!",
-    "body": "This is a sample announcement. Edit slides.json to change content.",
+    "title": "Welcome!",
+    "body": "Welcome to the Math and Physics Hallway! This is a sample announcement. Edit slides.json to change content.",
     "bg": "#1a1a2e",
     "accent": "#e94560"
   },
@@ -45,7 +45,7 @@
   {
     "type": "announcement",
     "title": "📢 Math and Physics Trivia",
-    "body": "$\\pi^2$",
+    "body": "$\pi^2$",
     "bg": "#1a1a2e",
     "accent": "#34d399"
   }
