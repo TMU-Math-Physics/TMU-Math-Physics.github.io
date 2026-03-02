@@ -7,13 +7,6 @@
     "accent": "#e94560"
   },
   {
-    "type": "image",
-    "title": "Our Team",
-    "caption": "testing123.",
-    "image": "images/slide2.jpg",
-    "bg": "#0f3460"
-  },
-  {
     "type": "announcement",
     "title": "🎉 Upcoming Event",
     "body": "The Astronomy Public Lecture Series will return on March 28th at 7:30pm with a guest lecture from Dr. Wes Ryle!",
@@ -26,7 +19,8 @@
     "location": "Crestview Hills, KY",
     "lat": 39.021,
     "lon": -84.564,
-    "bg": "#0d1b2a"
+    "bg": "#0d1b2a",
+    "duration": 4
   },
   {
     "type": "clock",
@@ -34,14 +28,7 @@
     "timezone": "America/New_York",
     "bg": "#1b1b2f",
     "accent": "#a78bfa",
-    "duration": 5
-  },
-  {
-    "type": "announcement",
-    "title": "📢 Reminder",
-    "body": "Theta is the polar angle, not azimuthal!!!",
-    "bg": "#1a1a2e",
-    "accent": "#34d399"
+    "duration": 4
   },
   {
     "type": "faculty",
@@ -58,5 +45,12 @@
     "accent": "#e94560",
     "bg": "#12121f",
     "duration": 10
+  },
+  {
+    "type": "announcement",
+    "title": "📢 Reminder",
+    "body": "Theta is the polar angle, not azimuthal!!!",
+    "bg": "#1a1a2e",
+    "accent": "#34d399"
   }
 ]
