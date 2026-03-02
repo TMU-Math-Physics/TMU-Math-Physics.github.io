@@ -52,5 +52,10 @@
     "body": "Theta is the polar angle, not azimuthal!!!",
     "bg": "#1a1a2e",
     "accent": "#34d399"
+  },
+  {
+    "type": "pdf", 
+    "src": "/pdfs/challenge20260302.pdf", 
+    "duration": 15 }
   }
 ]
