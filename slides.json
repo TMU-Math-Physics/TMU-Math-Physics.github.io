@@ -41,12 +41,5 @@
     "body": "Theta is the polar angle, not azimuthal!!!",
     "bg": "#1a1a2e",
     "accent": "#34d399"
-  },
-  {
-    "type": "announcement",
-    "title": "📢 Math and Physics Trivia",
-    "body": "$\\\pi^2$",
-    "bg": "#1a1a2e",
-    "accent": "#34d399"
   }
 ]
