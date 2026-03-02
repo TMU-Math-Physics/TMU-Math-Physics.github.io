@@ -23,7 +23,7 @@
   {
     "type": "weather",
     "title": "Today's Weather",
-    "location": "New York",
+    "location": "Crestview Hills, KY",
     "lat": 39.021,
     "lon": -84.564,
     "bg": "#0d1b2a"
