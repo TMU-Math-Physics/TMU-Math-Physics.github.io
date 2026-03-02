@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Math & Physics Commons</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/black.css">
+
+  <style>
+    body {
+      background-color: #0d1b2a;
+    }
+
+    .reveal h1, .reveal h2, .reveal h3 {
+      text-transform: none;
+    }
+
+    .reveal {
+      font-size: 2.2rem;
+    }
+
+    .footer {
+      position: fixed;
+      bottom: 20px;
+      left: 30px;
+      font-size: 1rem;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+
+<body>
+<div class="reveal">
+  <div class="slides" data-markdown="slides.md"
+       data-separator="^\n---\n$"
+       data-separator-vertical="^\n--\n$">
+  </div>
+</div>
+
+<div class="footer">
+  Math & Physics Collaboration Commons
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
+
+<script>
+  Reveal.initialize({
+    hash: false,
+    controls: false,
+    progress: false,
+    slideNumber: false,
+    autoSlide: 30000,
+    loop: true,
+    autoSlideStoppable: false,
+    transition: "fade",
+    plugins: [ RevealMarkdown ]
+  });
+</script>
+</body>
+</html>
