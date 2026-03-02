@@ -1,2 +1,3 @@
 # TMU-Math-Physics.github.io
-Thomas More University Math and Physics
+
+For a display monitor in the hallway.
