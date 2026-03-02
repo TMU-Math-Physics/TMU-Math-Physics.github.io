@@ -33,7 +33,8 @@
     "title": "Current Time",
     "timezone": "America/New_York",
     "bg": "#1b1b2f",
-    "accent": "#a78bfa"
+    "accent": "#a78bfa",
+    "duration": 5
   },
   {
     "type": "announcement",
@@ -41,5 +42,22 @@
     "body": "Theta is the polar angle, not azimuthal!!!",
     "bg": "#1a1a2e",
     "accent": "#34d399"
+  },
+  {
+    "type": "faculty",
+    "name": "Austin Hinkel, Ph.D.",
+    "title": "Assistant Professor of Phyiscs",
+    "department": "Department of Mathematics and Physics",
+    "photo": "assets/faculty/smith.jpg",
+    "bio": "Dr. Hinkel's research focuses on Galactic Archaeology. He joined TMU in 2023 after a short stint at Colorado College.",
+    "interests": [
+      "Physics",
+      "etc.",
+      "stuff"
+    ],
+    "email": "hinkela@thomasmore.edu",
+    "accent": "#e94560",
+    "bg": "#12121f",
+    "duration": 10
   }
 ]
