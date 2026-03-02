@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -242,14 +243,30 @@ let weatherCache = {};
 
 // ── BOOT ────────────────────────────────────────────────
 async function boot() {
-  slides = await fetchSlides();
-  buildSlides();
-  showSlide(0);
+  try {
+    slides = await fetchSlides();
+    if (!slides || slides.length === 0) throw new Error('No slides found in slides.json');
+    buildSlides();
+    showSlide(0);
+  } catch(e) {
+    document.getElementById('slideshow').innerHTML = `
+      <div style="position:fixed;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:center;background:#1a0a0a;font-family:monospace;padding:40px;text-align:center;">
+        <div style="font-size:3rem;margin-bottom:24px;">⚠️</div>
+        <div style="font-size:1.4rem;color:#ff6b6b;margin-bottom:16px;">Failed to load slides</div>
+        <div style="font-size:0.9rem;color:#aaa;max-width:60ch;line-height:1.6;">${e.message}</div>
+      </div>`;
+  }
 }
 
 async function fetchSlides() {
   const r = await fetch(`slides.json?_=${Date.now()}`);
-  return r.json();
+  if (!r.ok) throw new Error(`HTTP ${r.status} fetching slides.json`);
+  const text = await r.text();
+  try {
+    return JSON.parse(text);
+  } catch(e) {
+    throw new Error(`JSON parse error: ${e.message} — Content received: ${text.substring(0, 200)}`);
+  }
 }
 
 // ── BUILD DOM ───────────────────────────────────────────
