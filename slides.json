@@ -66,6 +66,18 @@
     "accent": "#34d399"
   },
   {
+  "type": "publication",
+  "title": "Planetary defense in the introductory astronomy classroom: Visualizing Kepler’s laws",
+  "author": "Austin Hinkel",
+  "journal": "The Physics Teacher",
+  "year": "2026",
+  "url": "https://doi.org/10.1119/5.0312991",
+  "doi": "10.1119/5.0312991",
+  "accent": "#ff9913",
+  "bg": "#0e0e1a",
+  "duration": 10
+  },
+  {
     "type": "pdf", 
     "src": "/pdfs/challenge20260302.pdf", 
     "duration": 15 
