@@ -26,6 +26,17 @@
   "duration": 10
   },
   {
+  "type": "publication",
+  "title": "Exploding dice combinatorics",
+  "author": "Kyler L. Beaumont and Harold J. Smith",
+  "journal": "Parabola",
+  "year": "2025",
+  "url": "https://www.parabola.unsw.edu.au/#:~:text=Exploding%20dice%20combinatorics",
+  "accent": "#990000",
+  "bg": "#0e0e1a",
+  "duration": 10
+  },
+  {
     "type": "weather",
     "title": "Today's Weather",
     "location": "Crestview Hills, KY",
