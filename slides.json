@@ -14,6 +14,18 @@
     "accent": "#f5a623"
   },
   {
+  "type": "publication",
+  "title": "Lattice Engineering Novel 2D Monolayer in Zinc Pnictides",
+  "author": "Dinesh Thapa and Seong-Gon Kim",
+  "journal": "ACS Omega",
+  "year": "2025",
+  "url": "https://pubs.acs.org/doi/10.1021/acsomega.5c05775",
+  "doi": "10.1021/acsomega.5c05775",
+  "accent": "#e94560",
+  "bg": "#0e0e1a",
+  "duration": 10
+  },
+  {
     "type": "weather",
     "title": "Today's Weather",
     "location": "Crestview Hills, KY",
