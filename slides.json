@@ -2,7 +2,7 @@
   {
     "type": "announcement",
     "title": "Welcome!",
-    "body": "Welcome to the Math and Physics Hallway! This is a sample announcement. Edit slides.json to change content.",
+    "body": "Welcome to the Math and Physics Hallway!",
     "bg": "#1a1a2e",
     "accent": "#e94560"
   },
@@ -24,6 +24,13 @@
   "accent": "#e94560",
   "bg": "#0e0e1a",
   "duration": 10
+  },
+  {
+    "type": "announcement",
+    "title": "Congrats!",
+    "body": "Congrats to Dr. Jyoti Saraswat on her promotion to Full Professor!",
+    "bg": "#1a1a2e",
+    "accent": "#e94560"
   },
   {
   "type": "publication",
@@ -71,10 +78,10 @@
   },
   {
     "type": "announcement",
-    "title": "📢 Reminder",
-    "body": "Theta is the polar angle, not azimuthal!!!",
+    "title": "Congrats!",
+    "body": "Congrats to Dr. Bob Riehemann on a Center for Undergraduate Research in Mathematics grant!",
     "bg": "#1a1a2e",
-    "accent": "#34d399"
+    "accent": "#e94560"
   },
   {
   "type": "publication",
