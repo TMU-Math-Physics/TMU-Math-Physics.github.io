@@ -4,21 +4,21 @@
     "title": "Welcome!",
     "body": "Welcome to the Math and Physics Hallway!",
     "bg": "#1a1a2e",
-    "accent": "#e94560"
+    "accent": "#00549E"
   },
   {
     "type": "announcement",
     "title": "Congrats!",
     "body": "Congrats to Dr. Jyoti Saraswat on her promotion to Full Professor!",
     "bg": "#1a1a2e",
-    "accent": "#e94560"
+    "accent": "#00549E"
   },
   {
     "type": "announcement",
     "title": "🎉 Upcoming Event",
-    "body": "The Astronomy Public Lecture Series will return on September 19th at 7:30pm in Ziegler Auditorium!",
+    "body": "The Astronomy Public Lecture Series will return on November 14th at 6:00pm in Ziegler Auditorium!",
     "bg": "#16213e",
-    "accent": "#f5a623"
+    "accent": "#00549E"
   },
   {
   "type": "publication",
@@ -44,7 +44,7 @@
       "Astronomy",
       "Data Science"
     ],
-    "accent": "#e94560",
+    "accent": "#00549E",
     "bg": "#12121f",
     "duration": 10
   },
@@ -81,7 +81,7 @@
     "title": "Congrats!",
     "body": "Congrats to Dr. Bob Riehemann on a Center for Undergraduate Research in Mathematics grant!",
     "bg": "#1a1a2e",
-    "accent": "#e94560"
+    "accent": "#00549E"
   },
   {
   "type": "publication",
