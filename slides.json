@@ -68,6 +68,11 @@
   "duration": 10
   },
   {
+    "type": "apod",
+    "bg": "#000000",
+    "duration": 10
+  },
+  {
     "type": "weather",
     "title": "Today's Weather",
     "location": "Crestview Hills, KY",
