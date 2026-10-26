@@ -691,8 +691,10 @@ async function loadApod(s) {
     $('apod-caption').style.display = '';
     $('apod-status').style.display = 'none';
   } catch(e) {
+    console.warn('APOD unavailable:', e.message);
     const st = $('apod-status');
     if (st) st.textContent = 'NASA Astronomy Picture of the Day unavailable right now';
+    setTimeout(() => { if (current === slides.indexOf(s)) nextSlide(); }, 2500);
   }
 }
 
