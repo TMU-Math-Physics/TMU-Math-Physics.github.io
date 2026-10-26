@@ -22,7 +22,7 @@
   },
   {
     "type": "pure-image",
-    "src": "images/arewealone.jpg",
+    "src": "/images/arewealone.jpg",
     "alt": "Are We Alone? Astronomy public lecture with Austin Hinkel, Ph.D. - November 14, 2026, 6:00 pm, Ziegler Auditorium",
     "fit": "contain",
     "bg": "#000000",
