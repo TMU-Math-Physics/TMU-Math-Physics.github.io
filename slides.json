@@ -69,6 +69,7 @@
   },
   {
     "type": "apod",
+    "api_key": "MGbFfCctWJmMnqcr8wCwPqgRhgf8tnHH9gkqwrtk",
     "bg": "#000000",
     "duration": 10
   },
