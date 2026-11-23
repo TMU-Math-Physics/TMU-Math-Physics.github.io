@@ -60,8 +60,16 @@
   "duration": 10
   },
   {
-    "type": "apod",
-    "api_key": "MGbFfCctWJmMnqcr8wCwPqgRhgf8tnHH9gkqwrtk",
+    "type": "nasa-image",
+    "queries": [
+      "nebula",
+      "galaxy",
+      "james webb",
+      "hubble",
+      "aurora",
+      "saturn",
+      "supernova"
+    ],
     "bg": "#000000",
     "duration": 20
   },
